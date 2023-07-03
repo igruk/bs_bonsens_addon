@@ -6,7 +6,10 @@
         <field name="inherit_id" ref="crm.crm_lead_view_form"/>
         <field name="arch" type="xml">
             <xpath expr="//header" position="inside">
-                <button name="create_new_project" string="New Project" type="object" confirm="Create New Project?"/>
+                <button name="create_new_project" string="New Project"
+                        type="object" confirm="Create New Project?"/>
+                <button name="create_new_helpdesk_ticket" string="New Helpdesk Ticket"
+                        type="object" confirm="Create New Helpdesk Ticket?"/>
             </xpath>
             <xpath expr="//div[@name='button_box']" position="inside">
                 <button name="get_projects" type="object" class="oe_stat_button" icon="fa-file-powerpoint-o">

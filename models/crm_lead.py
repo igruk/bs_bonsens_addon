@@ -34,3 +34,21 @@ class CrmLead(models.Model):
     def _compute_project_count(self):
         project = self.env['project.project']
         self.project_count = project.search_count([('crm_lead_id', '=', self.id)])
+
+    def create_new_helpdesk_ticket(self):
+        for lead in self:
+            name = lead.name
+            contact = lead.partner_id.id
+            assigned_user = lead.user_id.id
+            ticket = self.env['helpdesk.ticket'].create({'name': name,
+                                                         'partner_id': contact,
+                                                         'user_id': assigned_user,
+                                                         'description': name})
+            return {
+                'type': 'ir.actions.act_window',
+                'view_type': 'form',
+                'view_mode': 'form',
+                'res_model': 'helpdesk.ticket',
+                'res_id': ticket.id,
+                'context': {'form_view_initial_mode': 'edit'},
+            }
