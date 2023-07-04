@@ -18,6 +18,12 @@
                         <span class="o_stat_text">Projects</span>
                     </div>
                 </button>
+                <button name="get_helpdesk_tickets" type="object" class="oe_stat_button" icon="fa-list-alt">
+                    <div class="o_stat_info">
+                        <field name="helpdesk_ticket_count" class="o_stat_value"/>
+                        <span class="o_stat_text">Helpdesk</span>
+                    </div>
+                </button>
             </xpath>
         </field>
     </record>

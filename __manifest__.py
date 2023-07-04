@@ -27,6 +27,7 @@
         # 'security/ir.model.access.csv',
         'views/crm_views.xml',
         'views/project_views.xml',
+        'views/helpdesk_views.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
