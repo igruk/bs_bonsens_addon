@@ -21,4 +21,18 @@
             </xpath>
         </field>
     </record>
+
+    <record id="crm_tag_tree_view_inherited" model="ir.ui.view">
+        <field name="name">crm_tag_tree_view</field>
+        <field name="model">crm.tag</field>
+        <field name="inherit_id" ref="sales_team.sales_team_crm_tag_view_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="default_order">sequence, name</attribute>
+            </xpath>
+            <xpath expr="//field[@name='name']" position="before">
+                <field name="sequence" widget="handle"/>
+            </xpath>
+        </field>
+    </record>
 </odoo>
