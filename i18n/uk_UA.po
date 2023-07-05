@@ -1,0 +1,113 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bs_bonsens_addon
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-05 07:06+0000\n"
+"PO-Revision-Date: 2023-07-05 07:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bs_bonsens_addon
+#: model_terms:ir.ui.view,arch_db:bs_bonsens_addon.crm_lead_view_form_inherited
+msgid "<span class=\"o_stat_text\">Helpdesk</span>"
+msgstr "Служба підтримки"
+
+#. module: bs_bonsens_addon
+#: model_terms:ir.ui.view,arch_db:bs_bonsens_addon.crm_lead_view_form_inherited
+msgid "<span class=\"o_stat_text\">Projects</span>"
+msgstr "Проекти"
+
+#. module: bs_bonsens_addon
+#: model:ir.model.fields,field_description:bs_bonsens_addon.field_helpdesk_ticket__crm_lead_id
+#: model:ir.model.fields,field_description:bs_bonsens_addon.field_project_project__crm_lead_id
+msgid "CRM Lead"
+msgstr "CRM Лід"
+
+#. module: bs_bonsens_addon
+#: model:ir.model,name:bs_bonsens_addon.model_crm_tag
+msgid "CRM Tag"
+msgstr "Тег CRM"
+
+#. module: bs_bonsens_addon
+#: model_terms:ir.ui.view,arch_db:bs_bonsens_addon.crm_lead_view_form_inherited
+msgid "Create New Helpdesk Ticket?"
+msgstr "Створити нове звернення до служби підтримки?"
+
+#. module: bs_bonsens_addon
+#: model_terms:ir.ui.view,arch_db:bs_bonsens_addon.crm_lead_view_form_inherited
+msgid "Create New Project?"
+msgstr "Створити новий проект?"
+
+#. module: bs_bonsens_addon
+#: model:ir.model.fields,field_description:bs_bonsens_addon.field_helpdesk_ticket__currency
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: bs_bonsens_addon
+#: model:ir.model,name:bs_bonsens_addon.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "Звернення до служби підтримки"
+
+#. module: bs_bonsens_addon
+#: model:ir.model.fields,field_description:bs_bonsens_addon.field_crm_lead__helpdesk_ticket_count
+msgid "Helpdesk Ticket Count"
+msgstr "К-сть звернень до служби підтримки"
+
+#. module: bs_bonsens_addon
+#: model:ir.model.fields,field_description:bs_bonsens_addon.field_crm_lead__helpdesk_ticket_ids
+msgid "Helpdesk Tickets"
+msgstr "Звернення"
+
+#. module: bs_bonsens_addon
+#: model:ir.model,name:bs_bonsens_addon.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Лід/Нагода"
+
+#. module: bs_bonsens_addon
+#: model_terms:ir.ui.view,arch_db:bs_bonsens_addon.crm_lead_view_form_inherited
+msgid "New Helpdesk Ticket"
+msgstr "Нове звернення до служби підтримки"
+
+#. module: bs_bonsens_addon
+#: model_terms:ir.ui.view,arch_db:bs_bonsens_addon.crm_lead_view_form_inherited
+msgid "New Project"
+msgstr "Новий проект"
+
+#. module: bs_bonsens_addon
+#: model:ir.model,name:bs_bonsens_addon.model_project_project
+msgid "Project"
+msgstr "Проект"
+
+#. module: bs_bonsens_addon
+#: model:ir.model.fields,field_description:bs_bonsens_addon.field_crm_lead__project_count
+msgid "Project Count"
+msgstr "К-сть проектів"
+
+#. module: bs_bonsens_addon
+#: model:ir.model,name:bs_bonsens_addon.model_project_tags
+msgid "Project Tags"
+msgstr "Теги проекту"
+
+#. module: bs_bonsens_addon
+#: model:ir.model.fields,field_description:bs_bonsens_addon.field_crm_lead__project_ids
+msgid "Projects"
+msgstr "Проекти"
+
+#. module: bs_bonsens_addon
+#: model:ir.model.fields,field_description:bs_bonsens_addon.field_crm_tag__sequence
+#: model:ir.model.fields,field_description:bs_bonsens_addon.field_project_tags__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: bs_bonsens_addon
+#: model:ir.model.fields,field_description:bs_bonsens_addon.field_helpdesk_ticket__total
+msgid "Total"
+msgstr "Сума"
